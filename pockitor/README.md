@@ -1,16 +1,43 @@
-# pockitor
+# Pockitor – Personal Expense Tracker
 
-A new Flutter project.
+**Pockitor** is a simple yet powerful personal expense tracker app built with Flutter.  
+Easily record, visualize, and manage your daily expenses.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 💸 Add & Manage Expenses
+- 📊 Visual Analytics (Pie Charts)
+- 📤 Export to CSV & Share
+- 🎯 Monthly Budget Planner
+- 🗃️ Local Storage with Hive (Offline Support)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+| Home Screen | Analytics | Budget Planner |
+|---|---|---|
+| ![Home](screenshots/home.png) | ![Analytics](screenshots/analytics.png) | ![Budget](screenshots/budget.png) |
+
+*(Place your app screenshots in a `screenshots/` folder)*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter**
+- **Hive** (Local Storage)
+- **fl_chart** (Pie Charts)
+- **csv + path_provider + share_plus** (CSV Export & Share)
+
+---
+
+## 📦 Installation
+
+### Clone the repo
+
+```bash
+git clone https://github.com/yourusername/pockitor.git
+cd pockitor
